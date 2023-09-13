@@ -91,9 +91,11 @@ body, h1, h2, ul, p {
   nav button {
     background-color: #555;
     color: #fff;
-    border: none;
+    border: 2px solid #555;
+    border-radius: 5px;
     padding: 10px 20px;
-    cursor: grab;
+    cursor: pointer;
+    transition: 0.5s;
   }
   
   nav button:hover {
@@ -181,26 +183,8 @@ section {
   }
   
   .section {
-    padding: 20px;
+    padding: 100px;
     margin-bottom: 20px;
   }
   
-  .section1 {
-    background-color: rgba(242, 242, 242, 0.2);
-    border: 1px solid #ccc;
-    overflow: hidden; /* To clear the floats */
-    position: relative;
-  }
-
-  .image-container {
-    float: left;
-    margin-right: 40%;
-    margin-bottom: 40%;
-    transition: 0.25s;
-  }
   
-  .image-container:hover{
-          transform: scale(1.12);
-          z-index: 2;
-  
-  }
