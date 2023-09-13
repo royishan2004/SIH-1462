@@ -75,6 +75,26 @@ body, h1, h2, ul, p {
     margin-left: 1%;
     margin-bottom: 500px;
   }
+
+  /* Style the emergency helplines section */
+#emergency-helplines {
+  text-align: right; /* Align content to the right */
+}
+
+#emergency-helplines p {
+  margin-right: 1%;
+  margin-top: 99%;
+  font-weight: bold;
+}
+
+#emergency-helplines ul {
+  list-style-type: none;
+  padding: 2;
+}
+
+#emergency-helplines li {
+  margin-top: 8px;
+}
   
   /* Style the navigation bar */
   nav {
@@ -183,8 +203,59 @@ section {
   }
   
   .section {
-    padding: 100px;
+    padding: 20px;
     margin-bottom: 20px;
+  }
+  
+  .section1 {
+    background-color: rgba(242, 242, 242, 0.7);
+    margin-top: 2%;
+    padding: 40px;
+    overflow: hidden; /* To clear the floats */
+    position: relative;
+  }
+
+  .image-container {
+    float: left;
+    margin-right: 20px; /* Adjust the spacing between image and text */
+    transition: 0.3s;
+    border: 5px solid white;
+    border-radius: 7px;
+  }
+  
+  .image-container:hover{
+          transform: scale(1.12);
+          z-index: 2;
+  
+  }
+
+  .know-more-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease;
+    transition-delay: 0s;
+    background-color: 0.3s;
+    color:0.3s;
+  }
+
+  .know-more-button:hover{
+    transform:translateY(-10px);
+    background-color:white;
+    color:blue;
+
+
   }
   
   
