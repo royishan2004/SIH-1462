@@ -1,0 +1,206 @@
+/*.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .main {
+    margin-top: 20px;
+  }
+  
+  
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }*/
+  /* Reset some default styles for better consistency */
+
+
+
+
+
+
+
+
+
+
+
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: rgba(255, 255, 255, 0.3);;
+    color: #444(0, 0%, 100%);
+    text-align: center;
+    height: 150px;
+    padding: 1px;
+  }
+
+  /* Style the logo */
+  header img {
+    max-width: 120px; /* Adjust the size as needed */
+    margin-top: 1px;
+    margin-left: 1%;
+    margin-bottom: 500px;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: rgba(255, 255, 255, 0.3);;
+    color: #444;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: grab;
+  }
+  
+  nav button:hover {
+    background-color: #3498db;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+
+  /* Style individual sections with a transparent background */
+section {
+    background-color: rgba(255, 255, 255, 1.0); /* Adjust the alpha value (0.0 - 1.0) for transparency */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Style links within sections */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background image to the body */
+  body {
+    background-image: url(https://images.unsplash.com/photo-1475776408506-9a5371e7a068?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1958&q=80);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: Arial, sans-serif;
+    ;
+  }
+
+  /* Style the news strip */
+  
+  #news-strip {
+    position: relative;
+    bottom: 460px;
+    width: 100%;
+    background-color: #fff;
+    padding: 1px;
+    border-top: 0.1px solid #fff;
+  }
+
+  
+  #news-strip h2 {
+    text-align: center;
+  }
+  
+  #news-strip ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #news-strip li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #news-strip a {
+    text-decoration: none;
+    color: blue;
+
+  }
+  
+  .section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .section1 {
+    background-color: rgba(242, 242, 242, 0.2);
+    border: 1px solid #ccc;
+    overflow: hidden; /* To clear the floats */
+    position: relative;
+  }
+
+  .image-container {
+    float: left;
+    margin-right: 40%;
+    margin-bottom: 40%;
+    transition: 0.25s;
+  }
+  
+  .image-container:hover{
+          transform: scale(1.12);
+          z-index: 2;
+  
+  }
