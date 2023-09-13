@@ -75,26 +75,6 @@ body, h1, h2, ul, p {
     margin-left: 1%;
     margin-bottom: 500px;
   }
-
-  /* Style the emergency helplines section */
-#emergency-helplines {
-  text-align: right; /* Align content to the right */
-}
-
-#emergency-helplines p {
-  margin-right: 1%;
-  margin-top: 99%;
-  font-weight: bold;
-}
-
-#emergency-helplines ul {
-  list-style-type: none;
-  padding: 2;
-}
-
-#emergency-helplines li {
-  margin-top: 8px;
-}
   
   /* Style the navigation bar */
   nav {
