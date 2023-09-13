@@ -11,26 +11,70 @@
     <ul>
       <li><a href="https://economictimes.indiatimes.com/news/india/flood-situation-in-assams-morigaon-remains-critical-nearly-45000-people-affected/articleshow/103229653.cms" target="_blank"><b><marquee width="100%">Situation in Assam's Morigaon remains critical, nearly 45,000 people affected</marquee></b></a></li> 
     </ul>
-    <script>var newsStrip = document.getElementById("news-strip");
-        var timer = setInterval(function() {
-          newsStrip.scrollLeft += 100;
-        }, 5000);
-        </script>
+    <script>
+      var newsStrip = document.getElementById("news-strip");
+      var timer = setInterval(function() {
+        newsStrip.scrollLeft += 100;
+      }, 5000);
+    </script>
   </div>
 </header>
 <body>
   <nav>
     <ul>
-    <button>Home</button>
-    <button>Emergency Contact</button>
-    <button>Evacuation Routes</button>
-    <button>Disaster Preparedness Tips</button>
-    <button>News and Updates</button>
-    <button>LOGIN</button>
-    
+      <!-- Add unique IDs to your buttons for easy referencing -->
+      <button id="homeButton">Home</button>
+      <button id="emergencyButton">Emergency Contact</button>
+      <button id="evacuationButton">Evacuation Routes</button>
+      <button id="tipsButton">Disaster Preparedness Tips</button>
+      <button id="newsButton">News and Updates</button>
+      <button id="loginButton">LOGIN</button>
     </ul>
   </nav>
   <main>
   </main>
+  
+  <script>
+    // Get references to the buttons by their IDs
+    const homeButton = document.getElementById("homeButton");
+    const emergencyButton = document.getElementById("emergencyButton");
+    const evacuationButton = document.getElementById("evacuationButton");
+    const tipsButton = document.getElementById("tipsButton");
+    const newsButton = document.getElementById("newsButton");
+    const loginButton = document.getElementById("loginButton");
+
+    // Define functions to redirect to different web pages when buttons are clicked
+    function redirectToHome() {
+      window.location.href = "home.html"; // Change this URL to your home page
+    }
+
+    function redirectToEmergencyContact() {
+      window.location.href = "emergency_contact.html"; // Change this URL to your emergency contact page
+    }
+
+    function redirectToEvacuationRoutes() {
+      window.location.href = "evacuation_routes.html"; // Change this URL to your evacuation routes page
+    }
+
+    function redirectToDisasterTips() {
+      window.location.href = "disaster_tips.html"; // Change this URL to your disaster tips page
+    }
+
+    function redirectToNewsUpdates() {
+      window.location.href = "news_updates.html"; // Change this URL to your news and updates page
+    }
+
+    function redirectToLogin() {
+      window.location.href = "login.html"; // Change this URL to your login page
+    }
+
+    // Attach the functions to the respective button's click event
+    homeButton.addEventListener("click", redirectToHome);
+    emergencyButton.addEventListener("click", redirectToEmergencyContact);
+    evacuationButton.addEventListener("click", redirectToEvacuationRoutes);
+    tipsButton.addEventListener("click", redirectToDisasterTips);
+    newsButton.addEventListener("click", redirectToNewsUpdates);
+    loginButton.addEventListener("click", redirectToLogin);
+  </script>
 </body>
 </html>
